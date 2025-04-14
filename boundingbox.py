@@ -6,7 +6,7 @@ from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 from scipy.spatial.transform import Rotation as R
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
-# test
+# test 1
 def generate_prism(n, r, h):
     angles = np.linspace(0, 2 * np.pi, int(n), endpoint=False)
     x = r * np.cos(angles)
